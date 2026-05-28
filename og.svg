@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="glow" cx=".5" cy=".4" r=".7">
+      <stop offset="0" stop-color="#f7b500" stop-opacity=".22"/>
+      <stop offset=".55" stop-color="#f7b500" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#0a0a0a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#f7b500"/>
+      <stop offset=".5" stop-color="#ffe680"/>
+      <stop offset="1" stop-color="#f7b500"/>
+    </linearGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="1.2" fill="#f7b500" opacity=".18"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- top eyebrow bar -->
+  <g font-family="Impact,'Arial Narrow',sans-serif">
+    <text x="60" y="68" fill="#f7b500" font-size="14" letter-spacing="6" font-weight="700">PREMIUM CRAFT INFUSED BEVERAGE</text>
+    <line x1="450" y1="62" x2="1080" y2="62" stroke="#f7b500" stroke-opacity=".35"/>
+    <text x="1088" y="68" fill="#7a7363" font-size="14" letter-spacing="6" font-weight="700">MADE IN FL</text>
+  </g>
+
+  <!-- corner brackets -->
+  <g stroke="#f7b500" stroke-width="3" fill="none">
+    <path d="M40 130 L40 100 L70 100"/>
+    <path d="M1160 530 L1160 560 L1130 560"/>
+  </g>
+
+  <!-- big wordmark -->
+  <g font-family="Impact,'Arial Narrow',sans-serif" font-weight="900" text-anchor="middle">
+    <text x="600" y="240" fill="#f7f3e9" font-size="118" letter-spacing="4">DO BE <tspan fill="url(#gold)">DOO BE</tspan> DOO</text>
+  </g>
+
+  <!-- tagline -->
+  <g font-family="Impact,'Arial Narrow',sans-serif" font-weight="900" text-anchor="middle">
+    <text x="600" y="340" fill="#f7f3e9" font-size="56" letter-spacing="2">ELEVATE <tspan fill="#f7b500">YOUR MOMENT.</tspan></text>
+  </g>
+
+  <!-- sub copy -->
+  <g font-family="'Arial', sans-serif" text-anchor="middle">
+    <text x="600" y="394" fill="#bdb6a2" font-size="22">Real lemonade. Real lemons. 5mg of nano-emulsified Delta-9 in every can.</text>
+  </g>
+
+  <!-- spec strip -->
+  <g font-family="Impact,'Arial Narrow',sans-serif" text-anchor="middle">
+    <line x1="200" y1="450" x2="1000" y2="450" stroke="#f7b500" stroke-opacity=".2"/>
+    <g transform="translate(280 510)">
+      <text font-size="13" fill="#7a7363" letter-spacing="6" font-weight="700" y="-32">DOSE</text>
+      <text font-size="36" fill="#f7b500" font-weight="900" letter-spacing="2">5MG NANO</text>
+    </g>
+    <g transform="translate(500 510)">
+      <text font-size="13" fill="#7a7363" letter-spacing="6" font-weight="700" y="-32">VOLUME</text>
+      <text font-size="36" fill="#f7b500" font-weight="900" letter-spacing="2">12 FL OZ</text>
+    </g>
+    <g transform="translate(720 510)">
+      <text font-size="13" fill="#7a7363" letter-spacing="6" font-weight="700" y="-32">TESTED</text>
+      <text font-size="36" fill="#f7b500" font-weight="900" letter-spacing="2">3RD PARTY</text>
+    </g>
+    <g transform="translate(920 510)">
+      <text font-size="13" fill="#7a7363" letter-spacing="6" font-weight="700" y="-32">MADE IN</text>
+      <text font-size="36" fill="#f7b500" font-weight="900" letter-spacing="2">FLORIDA</text>
+    </g>
+  </g>
+
+  <!-- footer disclaimer -->
+  <g font-family="'Arial', sans-serif" text-anchor="middle">
+    <text x="600" y="585" fill="#7a7363" font-size="13" letter-spacing="5">21+ ONLY · HEMP-DERIVED · MADE WITH INTENTION</text>
+  </g>
+
+  <!-- gold dot accents -->
+  <g fill="#f7b500">
+    <circle cx="60" cy="315" r="3"/>
+    <circle cx="1140" cy="315" r="3"/>
+    <circle cx="600" cy="425" r="2.5" opacity=".5"/>
+  </g>
+</svg>
